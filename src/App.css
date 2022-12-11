@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+
+body {
+  /* font-family: "Roboto"; */
+  font-family: "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", "Roboto", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: rgb(36 62 99);
+}
+.container{
+  width: 95%;
+  margin: auto;
+}
+.header {
+  width: 100%;
+  background-color: rgb(247 250 252);
+  display: flex;
+}
+
+.headerLeft {
+  width: 65%;
+  padding-left: 40px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.menuList {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menuList .menuPages{
+  margin: 0px 24px 0px 24px;
+  color:rgb(36 62 99);
+  text-decoration: none;
+  font-weight: 600;
+}  
+
+
+.menuList .menuPages:hover {
+  color: rgb(100 21 255);
+  border-bottom: 2px solid rgb(100 21 255);
+}
+
+
+.menuList .homePage{
+  font-size: 25px;
+  font-weight: 900;
+  color: rgb(36 62 99);
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+.menuList .homePage:hover {
+  color: rgb(100 21 255);
+}
+
+
+.logo {
+  width: 40px;
+  margin-right: 12px;
+}
+.headerLeftText{
+  margin-bottom: 76px;
+}
+.headerLeftText h1 {
+  margin-top: 100px;
+  font-size: 49px;
+  line-height: 1;
+  font-weight: 900;
+
+}
+
+.headerLeftText h1 span {
+  color: rgb(100 21 255);
+}
+
+.headerLeftText p {
+  margin: 32px 0px 32px 0px;
+  max-width: 450px;
+  font-size: 20px;
+  line-height: 2;
+}
+.btnHeader{
+  width: 195px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  border: none;
+  border-radius: 4px;
+}
+.btnHeader:focus{
+  box-shadow: 0 0 0 3px rgb(66,153,225,0.5);
+}
+.btnSingUp {
+  background-color: rgb(100 21 255);
+  color: rgb(247 250 252);
+}
+.btnSingUp:hover{
+  background-color: rgb(80 17 204);
+}
+.btnSearch {
+  background-color: rgb(226 232 240);
+  color: rgb(74 85 104);
+  margin-left: 16px;
+}
+.btnSearch:hover{
+  background-color: rgb(203 213 224);
+  color: rgb(45 55 72);
+}
+
+.headerRight {
+  width: 100%;
+  margin-left: 96px;
+}
+
+.headerRight img {
+  width: 100%;
+  /* margin-left: 96px; */
+}

@@ -1,0 +1,62 @@
+.title {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 48px;
+}
+
+.btnSlides {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.btnSlide {
+    padding: 7px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(100 21 255);
+    color: rgb(226 232 240);
+}
+.btnSlide:hover {
+    background-color: rgb(80 17 204);
+    color: rgb(237 242 247);
+    
+}
+.hotels{
+    width: 1280px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.hotelItems{
+    margin-top: 44px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.btnShowHotels{
+    width: 195px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(226 232 240);
+    color: rgb(74 85 104);
+  }
+.btnShowHotels:focus{
+    box-shadow: 0 0 0 3px rgb(66,153,225,0.5);
+}
+.btnShowHotels:hover{
+    background-color: rgb(203 213 224);
+    color: rgb(45 55 72);
+  }
+ /* .slide{
+transition: 0.5s;} */

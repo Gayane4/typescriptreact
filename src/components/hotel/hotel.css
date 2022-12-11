@@ -1,0 +1,94 @@
+
+.hotelItem {
+    min-width: 385px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 48px;
+    border: 1px solid rgb(226 232 240);
+    margin: 0px 20px;
+}
+
+.hotelItem img {
+    width: 100%;
+    height: 256px;
+    border-radius: 40px 0px 0px;
+}
+
+.aboutHotel {
+    padding: 24px 40px;
+}
+
+.hotelName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotelName h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hotelPopular {
+    display: flex;
+    align-items: center;
+}
+
+.hotelPopular svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    color: rgb(236 201 75);
+}
+
+.hotelPopular p {
+    margin-left: 8px;
+    font-weight: 700;
+}
+
+.geoPrice {
+    margin-top: 16px;
+    display: flex;
+
+}
+
+.hotelGeoPrice {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.hotelGeoPrice svg {
+    width: 12px;
+    height: 12px;
+    padding: 8px;
+    border-radius: 50%;
+    color: rgb(247 250 252);
+    background-color: rgb(74 85 104);
+}
+
+.hotelGeoPrice h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 8px;
+    color: rgb(45 55 72);
+}
+.description p{
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 2;
+}
+.btnHotel{
+    width: 100%;
+    border: none;
+    border-radius: 0px 0px 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(100 21 255);
+    color: rgb(247 250 252);
+}
+.btnHotel:hover{
+background-color: rgb(80 17 204);
+color: rgb(237 242 247);
+}
